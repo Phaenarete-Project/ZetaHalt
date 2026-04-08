@@ -20,6 +20,7 @@ ZetaHalt 融合 “Zeta”（黎曼 ζ 函数）与 “Halt”（停机问题）
 - 原始论文 PDF：`papers/matiyasevich2020riemann.pdf`
 - 整数版模拟脚本（可运行至 n=100）：`scripts/riemann_full_csv.py`
 - 状态数据 CSV（n=1…100，r 始终为正）：`data/raw/riemann_states.csv`
+- Lean 形式化代码（寄存器机）：[lean/MatiyasevichRHRegisterMachine.lean](lean/MatiyasevichRHRegisterMachine.lean)
 
 其他已整理的历史脚本也位于 `scripts/` 目录下，供复现与对照使用。
 
